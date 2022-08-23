@@ -38,7 +38,7 @@ def func_coeffs(t, AB):
     return result
 maxN = 8
 COLs = 2 #cols of plt
-ROWs = 1 (maxN-1) // COLs #rows of plt
+ROWs = 1 * (maxN-1) // COLs #rows of plt
 plt.rcParams['font.size'] = 8
 fig, axs = plt.subplots(ROWs, COLs)
 fig.tight_layout(rect=[0,0,1,0.95],pad=3.0)
